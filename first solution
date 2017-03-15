@@ -1,0 +1,14 @@
+function confirmEnding(str, target) {
+  var regexp1 = /\w+\.?$/gi;
+  var regexp2 = /\w\.?$/gi;
+  var regexp3 =  /\w{4}$/gi;
+
+  if(str.match(regexp1) == target || str.match(regexp2) == target || str.match(regexp3) == target){
+    return true;
+  }else{
+    return false;
+}
+  //return str;
+}
+
+confirmEnding("Bastian", "n");

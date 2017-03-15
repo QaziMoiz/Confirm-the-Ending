@@ -1,0 +1,10 @@
+function confirmEnding(str, target) {
+  if(str.substring(str.length - 1) == target.substring(target.length-1)){
+  console.log(true);
+}else{
+  console.log(false);
+}
+  //return str;
+}
+
+confirmEnding("This is awsome", "some");
